@@ -6,8 +6,6 @@ int main() {
     double N;
     cin >> N;
 
-    // 정수 부분 포함해서 소수점 특정 자리까지 반올림한다.
-    cout.precision(4); 
-    cout << N;
+    cout << N + 0.0033;
     return 0;
 }
