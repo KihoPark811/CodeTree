@@ -5,7 +5,8 @@ int main() {
     // Please write your code here.
     double N;
     cin >> N;
-
-    cout << N + 0.0033;
+    cout << fixed;
+    cout.precision(2);
+    cout << N;
     return 0;
 }
